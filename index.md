@@ -4,7 +4,7 @@
 
 [(R-Shiny) SaTScan Application](https://skhan22.shinyapps.io/NBDPN_TimeMonitoring_v2/) 
 
-[(R-Shiny_ Intergrowth Centile Calculator](https://skhan8.github.io/intergrowthApp/) 
+[(R-Shiny) Intergrowth Centile Calculator](https://skhan8.github.io/intergrowthApp/) 
 
 ### R-related Training
 
