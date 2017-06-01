@@ -10,9 +10,9 @@
 
 [R-Shiny Leaflet Tornado Demo](https://skhan22.shinyapps.io/tornadoApp) 
 
-[R-Shiny R User Group Training](https://skhan22.shinyapps.io/forRUG)
+[R-Shiny R User Group Training](https://skhan22.shinyapps.io/for_RUG)
 
-[Training Slides for Analytics Class](https://github.com/skhan890/analyticsShiny)
+[Training Slides on Shiny for an Analytics Class](https://github.com/skhan890/analyticsShiny/blob/master/Slides/index.Rmd)
 
 ### Class Projects
 
@@ -22,7 +22,7 @@
 
 [MongoDB to R](https://github.com/skhan890/mongo_db/blob/master/test.R)
 
-[Introduction to Statistical Learning in R](https://github.com/skhan890/ISLR)
+[Introduction to Statistical Learning in R](https://github.com/skhan890/ISLR/Chapter2.R)
 
 [Connecting to the NYTimes API and other stuff](https://github.com/skhan890/SE/blob/gh-pages/Homework.Rmd)
 
