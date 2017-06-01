@@ -10,7 +10,7 @@
 
 [(R-Shiny) Leaflet Tornado Demo](https://skhan22.shinyapps.io/tornadoApp) 
 
-[(R-Shiny_ R User Group Training](https://skhan22.shinyapps.io/for_RUG)
+[(R-Shiny) R User Group Training](https://skhan22.shinyapps.io/for_RUG)
 
 [Training Slides on Shiny for an Analytics Class](https://github.com/skhan890/analyticsShiny/blob/master/Slides/index.Rmd)
 
