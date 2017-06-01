@@ -22,7 +22,7 @@
 
 [MongoDB to R](https://github.com/skhan890/mongo_db/blob/master/test.R)
 
-[Introduction to Statistical Learning in R](https://github.com/skhan890/ISLR/Chapter2.R)
+[Introduction to Statistical Learning in R](https://github.com/skhan890/ISLR/blob/master/Chapter2.R)
 
 [Connecting to the NYTimes API and other stuff](https://github.com/skhan890/SE/blob/gh-pages/Homework.Rmd)
 
