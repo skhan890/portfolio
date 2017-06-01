@@ -2,15 +2,15 @@
 
 ### Work-related Projects
 
-[R-Shiny SaTScan Application](https://skhan22.shinyapps.io/NBDPN_TimeMonitoring_v2/) 
+[(R-Shiny) SaTScan Application](https://skhan22.shinyapps.io/NBDPN_TimeMonitoring_v2/) 
 
-[R-Shiny Intergrowth Centile Calculator](https://skhan8.github.io/intergrowthApp/) 
+[(R-Shiny_ Intergrowth Centile Calculator](https://skhan8.github.io/intergrowthApp/) 
 
 ### R-related Training
 
-[R-Shiny Leaflet Tornado Demo](https://skhan22.shinyapps.io/tornadoApp) 
+[(R-Shiny) Leaflet Tornado Demo](https://skhan22.shinyapps.io/tornadoApp) 
 
-[R-Shiny R User Group Training](https://skhan22.shinyapps.io/for_RUG)
+[(R-Shiny_ R User Group Training](https://skhan22.shinyapps.io/for_RUG)
 
 [Training Slides on Shiny for an Analytics Class](https://github.com/skhan890/analyticsShiny/blob/master/Slides/index.Rmd)
 
