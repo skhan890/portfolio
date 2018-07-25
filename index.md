@@ -2,7 +2,7 @@
 
 ### Work-related Projects
 
-[(R-Shiny) SaTScan Application](https://skhan22.shinyapps.io/NBDPN_TimeMonitoring_v2/) 
+[(R-Shiny) SaTScan Application](https://github.com/skhan890/ploty_app_linux) 
 
 [(R-Shiny) Intergrowth Centile Calculator](https://skhan8.github.io/intergrowthApp/) 
 
