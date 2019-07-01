@@ -6,6 +6,8 @@
 
 [(R-Shiny) Intergrowth Centile Calculator](https://skhan8.github.io/intergrowthApp/) 
 
+[(R-Shiny) R Ladies, Atlanta + NBA](https://skhan22.shinyapps.io/RLadies_Hawks/)
+
 ### R-related Training
 
 [(R-Shiny) Leaflet Tornado Demo](https://skhan22.shinyapps.io/tornadoApp) 
@@ -14,7 +16,7 @@
 
 [Training Slides on Shiny for an Analytics Class](https://github.com/skhan890/analyticsShiny/blob/master/Slides/index.Rmd)
 
-### Class Projects
+### Class Projects, 2016
 
 [HTML5 Slides - Diablo 3 Analysis using BattleNet API](http://skhan890.github.io/Info550Final) 
 
