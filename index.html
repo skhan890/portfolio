@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sara Khan — Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+
+  <!-- ── Fixed Left Sidebar ── -->
+  <header>
+    <h1>Sara Khan</h1>
+    <p class="subtitle">Sr. Data Analyst</p>
+    <p class="bio">
+      Public health informatics meets clinical analytics.
+      I build the pipelines, find the gaps, and translate
+      data into decisions people trust.
+    </p>
+    <p class="bio">CDC · Emory · Tallahassee Memorial</p>
+    <ul class="downloads">
+      <li><a href="resume.pdf" target="_blank">Resume</a></li>
+      <li><a href="https://linkedin.com/in/sarakha" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/skhan890" target="_blank">GitHub</a></li>
+    </ul>
+  </header>
+
+  <!-- ── Main Content ── -->
+  <section>
+
+    <p>
+      I'm a data analyst with deep roots in public health — from global polio surveillance
+      pipelines that informed WHO policy, to untangling nonprofit donor records, to scraping
+      the first cross-league NBA/WNBA dataset because the data didn't exist.
+      I bring the same rigor to every problem: clean the data, understand it, make it actionable.
+    </p>
+
+    <hr>
+
+    <!-- ════════════════════════════
+         DATA ANALYTICS
+    ═════════════════════════════ -->
+    <h2>Data Analytics</h2>
+
+    <h3>Global Polio Surveillance Analytics Pipeline</h3>
+    <p>
+      At the CDC Global Immunization Division (2016–2019), I found a critical data quality
+      problem hidden in plain sight: applying the same surveillance KPIs to a province of
+      5 million people as one of 50,000 was accidentally hiding virus circulation in small
+      areas. I designed a <strong>Spatial Binning method</strong> — aggregating districts
+      into standardized units of 200,000 children — and built a production ETL pipeline
+      pulling from WHO POLIS (79 countries) and WorldPop via SQL into R. Added four
+      automated surveillance flags to catch implausible data before it reached the IMB.
+      Maintained the full codebase on GitLab for two years.
+    </p>
+    <p>
+      <a href="https://github.com/skhan890/surv_manuscript" target="_blank">
+        <img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub">
+      </a>
+      &nbsp;
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7090369/" target="_blank">
+        <img src="https://img.shields.io/badge/Published-Vaccine%20X%202020-0055A4?style=flat-square" alt="Vaccine X 2020">
+      </a>
+      &nbsp;
+      <img src="https://img.shields.io/badge/79%20Countries-WHO%20POLIS-grey?style=flat-square" alt="79 countries">
+    </p>
+    <a href="images/polio_map.png">
+      <img src="images/polio_map.png" alt="Polio Surveillance Blind Spot Map"
+           onerror="this.parentElement.style.display='none'">
+    </a>
+
+    <hr class="soft">
+
+    <h3>Donor Revenue Analysis — Chance Center</h3>
+    <p>
+      Leadership suspected revenue was falling but couldn't explain it. Donor records lived
+      across three completely disconnected systems: Donorbox, Luma, and old Excel sheets.
+      I downloaded and merged all three in R, deduplicated identities across sources, and
+      tracked each person's payment history, retreat attendance, and donation tenure.
+      The picture that emerged was clear: only <strong>~100 people were actively donating</strong>;
+      a much larger group was accessing retreats without contributing anything.
+      This directly drove a new registration policy (10% scholarship cap) and a membership
+      survey to test recurring revenue viability.
+    </p>
+    <p>
+      <img src="https://img.shields.io/badge/R-Data%20Integration-276DC3?style=flat-square&logo=r&logoColor=white" alt="R">
+      &nbsp;
+      <img src="https://img.shields.io/badge/Donorbox%20+%20Luma%20+%20Excel-Merged-green?style=flat-square" alt="Data sources">
+      &nbsp;
+      <img src="https://img.shields.io/badge/Nonprofit-Donor%20Analytics-orange?style=flat-square" alt="Nonprofit">
+    </p>
+    <a href="images/chance_center_viz.png">
+      <img src="images/chance_center_viz.png" alt="Chance Center Donor Analysis"
+           onerror="this.parentElement.style.display='none'">
+    </a>
+
+    <hr class="soft">
+
+    <h3>NBA × WNBA Player Efficiency Rating Dashboard</h3>
+    <p>
+      As president of the CDC R Users Group and adjunct instructor at Emory, I was invited
+      to speak at R-Ladies Atlanta, hosted at the Atlanta Hawks facility. The challenge:
+      make R genuinely compelling to a sports analytics audience. Surprisingly, no
+      cross-league Player Efficiency Rating comparison existed publicly — WNBA data was
+      so scarce I had to hand-scrape player biographies from Wikipedia and supplement
+      with a custom script against Basketball-Reference.com. The resulting Shiny app lets
+      users compare any two players across standardized career timelines, explore
+      NBA vs. WNBA PER trends, and examine how career length shapes performance curves
+      by league and gender.
+    </p>
+    <p>
+      <a href="https://github.com/skhan890/RLadies_Hawks" target="_blank">
+        <img src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github" alt="GitHub">
+      </a>
+      &nbsp;
+      <a href="https://skhan22.shinyapps.io/RLadies_Hawks/" target="_blank">
+        <img src="https://img.shields.io/badge/Live%20Demo-shinyapps.io-276DC3?style=flat-square&logo=r&logoColor=white" alt="Live Demo">
+      </a>
+      &nbsp;
+      <a href="project 1 _ r ladies/index.html">
+        <img src="https://img.shields.io/badge/View-Slides-lightgrey?style=flat-square" alt="Slides">
+      </a>
+    </p>
+    <a href="project 1 _ r ladies/index.html">
+      <img src="images/hawks_dashboard.png" alt="Hawks NBA/WNBA Dashboard"
+           onerror="this.parentElement.style.display='none'">
+    </a>
+
+    <hr>
+
+    <!-- ════════════════════════════
+         SPEAKING & COMMUNITY
+    ═════════════════════════════ -->
+    <h2>Speaking &amp; Community</h2>
+
+    <h3>Practicing Chan While Working — HCAN Center</h3>
+    <p>
+      A talk on integrating contemplative practice with the pace of health data work —
+      bridging mindfulness, Chan Buddhism, and the lived experience of working in
+      high-stakes public health environments.
+    </p>
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/st1kBrb7jKg"
+        title="Practicing Chan While Working — Sara Khan"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <hr class="soft">
+
+    <h3>Sports Analytics &amp; R Shiny — R-Ladies Atlanta × Atlanta Hawks (2019)</h3>
+    <p>
+      Invited as guest speaker for R-Ladies Atlanta, hosted at the Atlanta Hawks facility.
+      Covered building interactive dashboards with R Shiny, handling missing data through
+      creative scraping, and why comparative sports analytics can drive equity conversations.
+      Followed by an invitation from the Emory Sports Analytics team to present the methodology.
+    </p>
+    <p>
+      <a href="project 1 _ r ladies/index.html">
+        <img src="https://img.shields.io/badge/View-Presentation%20Slides-lightgrey?style=flat-square" alt="Slides">
+      </a>
+    </p>
+
+    <hr class="soft">
+
+    <h3>Community &amp; Mindfulness Talks</h3>
+    <p>
+      Speaker at sorority chapters and mindfulness communities on topics spanning
+      technology, leadership, and contemplative practice.
+      Add your flyers and event photos below — replace the placeholder images in the
+      <code>images/</code> folder.
+    </p>
+    <div class="flyer-grid">
+      <div class="flyer-slot">
+        <img src="images/flyer1.jpg" alt="Talk Flyer 1"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="flyer-placeholder">
+          <span>Add flyer<br><small>images/flyer1.jpg</small></span>
+        </div>
+      </div>
+      <div class="flyer-slot">
+        <img src="images/flyer2.jpg" alt="Talk Flyer 2"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="flyer-placeholder">
+          <span>Add flyer<br><small>images/flyer2.jpg</small></span>
+        </div>
+      </div>
+      <div class="flyer-slot">
+        <img src="images/flyer3.jpg" alt="Talk Flyer 3"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="flyer-placeholder">
+          <span>Add flyer<br><small>images/flyer3.jpg</small></span>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- ════════════════════════════
+         PUBLICATIONS
+    ═════════════════════════════ -->
+    <h2>Publications</h2>
+    <p><em>Selected publications (as data visualization contributor)</em></p>
+    <ul>
+      <li>
+        <strong>Khan S</strong> et al. New analytic approaches for polio surveillance data.
+        <em>Vaccine X.</em> 2020.
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7090369/" target="_blank">[PMC7090369]</a>
+      </li>
+      <li>
+        Lind JN, ...<strong>Khan S</strong> et al.
+        Maternal Use of Opioids During Pregnancy and Congenital Malformations.
+        <em>Pediatrics.</em> 2017.
+      </li>
+      <li>
+        Zaman K, ...<strong>Khan S</strong> et al.
+        Immunogenicity of inactivated polio vaccine schedules.
+        <em>Vaccine.</em> 2021.
+      </li>
+    </ul>
+
+    <hr>
+
+    <!-- ════════════════════════════
+         VOLUNTEER & LEADERSHIP
+    ═════════════════════════════ -->
+    <h2>Volunteer &amp; Leadership</h2>
+    <ul>
+      <li>
+        <strong>Dharma Relief — Founding Operations Lead</strong> (2020–2026)<br>
+        Led COVID-19 PPE supply chain response: raised <strong>$649K in 7 weeks</strong>,
+        delivered <strong>1.2 million masks</strong> to 173 hospitals across North America,
+        and secured a transportation grant to scale distribution.
+      </li>
+      <li>
+        <strong>IRC Refugee Resettlement Volunteer</strong> (2022–Present)<br>
+        Support housing setup and community integration for refugee families.
+      </li>
+    </ul>
+
+    <hr>
+
+    <!-- ════════════════════════════
+         INTERESTS
+    ═════════════════════════════ -->
+    <h2>Interests</h2>
+    <p>
+      Passionate about the intersection of technology and mindfulness — building side projects
+      in AI, exploring new video games, and balancing screen time with a meditation practice,
+      yoga, and hiking. Ideally all in the same week.
+    </p>
+
+  </section><!-- /section -->
+
+  <footer>
+    <p>Sara Khan &copy; 2026</p>
+  </footer>
+
+</div><!-- /wrapper -->
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Ignore PDFs and temp files
+*.pdf
+*.PDF
+.DS_Store
+desktop.ini

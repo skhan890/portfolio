@@ -1,0 +1,295 @@
+/* ══════════════════════════════════════════════
+   Sara Khan Portfolio — chriskhanhtran minimal style
+   ══════════════════════════════════════════════ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #727272;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width: 860px;
+  margin: 0 auto;
+}
+
+/* ── Sidebar Header ── */
+header {
+  width: 270px;
+  position: fixed;
+  top: 40px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #222;
+  margin: 0 0 6px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #494949;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.bio {
+  font-size: 13px;
+  color: #727272;
+  margin: 0 0 8px;
+  line-height: 1.55;
+}
+
+/* ── Nav Buttons ── */
+.downloads {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+  display: flex;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 240px;
+}
+
+.downloads li {
+  flex: 1;
+  border-right: 1px solid #e0e0e0;
+}
+
+.downloads li:last-child {
+  border-right: none;
+}
+
+.downloads li a {
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 11px;
+  color: #676767;
+  text-decoration: none;
+  background: #f4f4f4;
+  height: 40px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.downloads li a:hover {
+  background: #e8e8e8;
+  color: #675C5C;
+  font-weight: 700;
+}
+
+/* ── Footer (fixed, bottom of sidebar) ── */
+footer {
+  position: fixed;
+  bottom: 50px;
+  width: 270px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* ── Main Content ── */
+section {
+  width: 500px;
+  float: right;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+/* ── Typography ── */
+h2 {
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+h3 {
+  color: #494949;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0 0 16px;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+code {
+  font-family: Monaco, "Lucida Console", monospace;
+  font-size: 12px;
+  background: #f8f8f8;
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #494949;
+}
+
+em { font-style: italic; }
+strong { color: #494949; font-weight: 700; }
+
+/* ── Dividers ── */
+hr {
+  border: none;
+  border-top: 2px solid #e5e5e5;
+  margin: 32px 0;
+}
+
+hr.soft {
+  border-top: 1px solid #f0f0f0;
+  margin: 24px 0;
+}
+
+/* ── Images ── */
+section img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 10px 0;
+  border: 1px solid #e5e5e5;
+  display: block;
+}
+
+/* ── Badge images inline ── */
+section p img {
+  display: inline;
+  vertical-align: middle;
+  border: none;
+  margin: 0;
+  height: 20px;
+}
+
+/* ── YouTube Embed ── */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 14px 0;
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Flyer / Social Media Grid ── */
+.flyer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.flyer-slot {
+  position: relative;
+}
+
+.flyer-slot img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin: 0;
+}
+
+.flyer-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f8f8f8;
+  border: 2px dashed #e0e0e0;
+  border-radius: 4px;
+  min-height: 110px;
+  padding: 12px;
+  font-size: 12px;
+  color: #bbb;
+  cursor: default;
+}
+
+.flyer-placeholder small {
+  display: block;
+  font-family: Monaco, monospace;
+  font-size: 10px;
+  margin-top: 4px;
+  color: #ccc;
+}
+
+/* ── Responsive: 960px ── */
+@media screen and (max-width: 960px) {
+  #wrapper { width: auto; padding: 0 20px; }
+  section { width: calc(100% - 290px); }
+  header { width: 250px; }
+  footer { width: 250px; }
+}
+
+/* ── Responsive: 720px (mobile) ── */
+@media screen and (max-width: 720px) {
+  header {
+    position: static;
+    width: 100%;
+    padding: 24px 0 16px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 24px;
+  }
+
+  footer {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 40px;
+  }
+
+  section {
+    float: none;
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .downloads {
+    max-width: 240px;
+  }
+
+  .flyer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
